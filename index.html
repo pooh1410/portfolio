@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pooja Gajghate | Interactive Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-pap3VfU7G+hFZ7jQwr3/yVmhKfLv4xSULsYw7F3S4zXwGdZ0D6pBBsQURJzFg7Vxw1YX+6t0JZB16vfQ5iVZ7A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <a class="logo" href="#hero">Pooja Gajghate</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="hero" class="hero">
+  <div class="hero-content fade-in">
+    <h1>Hi, I’m Pooja</h1>
+    <p>Software Development Engineer | SAP Basis Consultant</p>
+    <div class="hero-buttons">
+      <a href="mailto:poojagajghate14@gmail.com" class="hero-btn">
+        <i class="fa-solid fa-envelope"></i> Email
+      </a>
+      <a href="tel:+917767876535" class="hero-btn">
+        <i class="fa-solid fa-phone"></i> Call
+      </a>
+      <a href="https://www.linkedin.com/in/pooja-gajghate-159911207/" target="_blank" class="hero-btn">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section fade-in">
+  <h2>About Me</h2>
+  <p>
+    I’m a backend software engineer with experience in designing scalable distributed systems,
+    automated workflows, and cloud-native services. I’m passionate about system reliability
+    and solving complex backend challenges.
+  </p>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="section fade-in">
+  <h2>Skills</h2>
+  <div class="skill">
+    <p>Java <span class="skill-percent">90%</span></p>
+    <div class="skill-bar"><span style="--width:90%"></span></div>
+  </div>
+  <div class="skill">
+    <p>Python <span class="skill-percent">85%</span></p>
+    <div class="skill-bar"><span style="--width:85%"></span></div>
+  </div>
+  <div class="skill">
+    <p>Azure / AWS <span class="skill-percent">80%</span></p>
+    <div class="skill-bar"><span style="--width:80%"></span></div>
+  </div>
+  <div class="skill">
+    <p>Distributed Systems <span class="skill-percent">75%</span></p>
+    <div class="skill-bar"><span style="--width:75%"></span></div>
+  </div>
+</section>
+
+<!-- TECH STACK SECTION -->
+<section id="tech-stack" class="section fade-in">
+    <h2>Tech Stack</h2>
+    <div class="tech-icons">
+      <div class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+        <span>Java</span>
+      </div>
+      <div class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+        <span>Python</span>
+      </div>
+      <div class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" />
+        <span>Azure</span>
+      </div>
+      <div class="tech-icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" />
+        <span>AWS</span>
+      </div>      
+      <div class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+        <span>Docker</span>
+      </div>
+      <div class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" />
+        <span>Kubernetes</span>
+      </div>
+      <div class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+        <span>Git</span>
+      </div>
+    </div>
+  </section>  
+  
+
+<!-- EXPERIENCE SECTION -->
+<section id="experience" class="section fade-in">
+  <h2>Experience</h2>
+  <div class="card hover-card">
+    <h3>SAP Labs</h3>
+    <span class="role">Software Development Engineer | Jul 2024 – Present</span>
+    <ul>
+      <li>Designed cloud-native backend services and automation workflows using Java and Python.</li>
+      <li>Built monitoring, logging, and alerting pipelines to improve reliability by 50%.</li>
+      <li>Optimized operational workflows using data structures & algorithms, reducing manual effort by 40%.</li>
+      <li>Automated deployment validation, improving fault tolerance and reducing overhead by 30%.</li>
+    </ul>
+  </div>
+
+  <div class="card hover-card">
+    <h3>Optum</h3>
+    <span class="role">Software Developer Intern | Jun 2023 – Aug 2023</span>
+    <ul>
+      <li>Developed backend data pipelines using Python, MySQL, and Azure Databricks.</li>
+      <li>Improved pipeline performance by 30% for large datasets.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="section fade-in">
+  <h2>Projects</h2>
+  <div class="card hover-card">
+    <h3>Legal Contract Analysis (RLHF)</h3>
+    <p>
+      Developed a GPT-based ML system to automate contract review, reducing review time by 25%.
+      <strong>NDA signed – no demo or GitHub available.</strong>
+    </p>
+  </div>
+  <div class="card hover-card">
+    <h3>Image Steganography</h3>
+    <p>
+      Python application for secure data embedding and extraction using pixel-level techniques.
+    </p>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS SECTION -->
+<section id="certifications" class="section fade-in">
+  <h2>Certifications & Leadership</h2>
+  <ul class="cert-list">
+    <li>Google Generative AI</li>
+    <li>Google Cloud Facilitator Program</li>
+    <li>J.P. Morgan Software Engineering Virtual Internship</li>
+    <li>Mentorship Head — SWE Chapter</li>
+  </ul>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="section fade-in">
+  <h2>Contact</h2>
+  <p>Let's connect! I’m open to new opportunities and collaborations.</p>
+  <div class="contact-buttons">
+    <a href="mailto:poojagajghate14@gmail.com" class="contact-btn hover-btn">
+      <i class="fa-solid fa-envelope"></i> Email
+    </a>
+    <a href="tel:+917767876535" class="contact-btn hover-btn">
+      <i class="fa-solid fa-phone"></i> Call
+    </a>
+  </div>
+</section>
+
+<!-- JS for animations -->
+<script>
+// Smooth scroll for navbar
+document.querySelectorAll('.navbar a').forEach(anchor => {
+  anchor.addEventListener('click', function(e){
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// Fade-in on scroll
+const faders = document.querySelectorAll('.fade-in');
+const appearOnScroll = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('appear');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.2 });
+
+// Observe fade-in elements
+faders.forEach(fader => appearOnScroll.observe(fader));
+
+// Animate skill bars
+const skillBars = document.querySelectorAll('.skill-bar span');
+skillBars.forEach(bar => {
+  const width = bar.style.getPropertyValue('--width');
+  bar.style.width = width;
+});
+</script>
+
+</body>
+</html>
